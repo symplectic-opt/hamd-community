@@ -69,7 +69,7 @@ portfolio) require:
 - The full `run_all_cubic_benchmarks.sh` campaign script — Enterprise only
 - The decoded-feasibility analytics package — Enterprise only
 
-Contact symplectic-opt for the Enterprise Edition to reproduce all paper results.
+Contact **grserb.research@gmail.com** for the Enterprise Edition to reproduce all paper results.
 
 ---
 

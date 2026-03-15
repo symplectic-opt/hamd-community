@@ -4,7 +4,7 @@ HAMD Community Edition
 Hyper-Adaptive Momentum Dynamics — open research / evaluation release.
 
 Noncommercial use only.  See LICENSE for terms.
-Contact symplectic-opt for commercial licensing.
+Commercial licensing: grserb.research@gmail.com
 """
 
 __version__ = "1.0.0"

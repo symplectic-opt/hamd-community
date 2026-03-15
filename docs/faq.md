@@ -137,4 +137,4 @@ operations, but the results are identical.
 **A:** Open a GitHub issue in this repository with a minimal reproducible example,
 the Python/PyTorch/OS versions, and the full error traceback.
 
-For commercial inquiries, contact the enterprise team via the README contact link.
+For commercial inquiries, contact **grserb.research@gmail.com**.

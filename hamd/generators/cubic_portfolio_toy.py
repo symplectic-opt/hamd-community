@@ -110,7 +110,7 @@ def generate(
     if n > 200:
         raise ValueError(
             f"n={n} exceeds community edition limit (n≤200). "
-            "Contact symplectic-opt for HAMD Enterprise Edition."
+            "Contact grserb.research@gmail.com for HAMD Enterprise Edition."
         )
 
     rng         = np.random.RandomState(seed)

@@ -6,8 +6,8 @@ Momentum Dynamics for K-cardinality-constrained higher-order objectives.
 
 This is a clean, documented reference solver that demonstrates the core HAMD
 ideas on cubic (degree-3) binary optimisation problems.  It is intentionally
-self-contained and readable.  For best-in-class benchmark performance, contact
-symplectic-opt about the Enterprise Edition.
+self-contained and readable.  For best-in-class benchmark performance,
+contact grserb.research@gmail.com about the Enterprise Edition.
 
 Algorithm overview
 ------------------

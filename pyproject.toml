@@ -9,7 +9,7 @@ description = "HAMD Community Edition — native cubic K-cardinality optimisatio
 readme      = "README.md"
 requires-python = ">=3.10"
 license     = { text = "Noncommercial Research/Evaluation" }
-authors     = [{ name = "Symplectic Optimization", email = "contact@symplectic-opt.com" }]
+authors     = [{ name = "Symplectic Optimization", email = "grserb.research@gmail.com" }]
 keywords    = ["combinatorial optimisation", "QUBO", "HUBO", "portfolio optimisation",
                "higher-order", "binary optimisation", "adiabatic dynamics"]
 classifiers = [
