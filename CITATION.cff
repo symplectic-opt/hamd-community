@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use HAMD Community Edition, please cite the following."
+type: software
+title: "HAMD Community Edition"
+abstract: >
+  Hyper-Adaptive Momentum Dynamics — open research and evaluation release
+  for K-cardinality-constrained cubic binary optimisation.
+version: "1.0.0"
+date-released: "2026-03-14"
+license: "LicenseRef-noncommercial"
+repository-code: "https://github.com/symplectic-opt/hamd-community"
+contact:
+  - name: "Symplectic Optimization"
+    email: "contact@symplectic-opt.com"
+preferred-citation:
+  type: article
+  title: >
+    Hyper-Adaptive Momentum Dynamics for Native Cubic Portfolio Optimization:
+    Avoiding Quadratization Distortion in Higher-Order Cardinality-Constrained Search
+  authors:
+    - name: "Symplectic Optimization"
+  year: 2026
+  notes: "Preprint"

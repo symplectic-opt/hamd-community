@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+**.egg-info
+dist/
+build/
+.eggs/
+*.egg
+*.whl
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env
+
+# PyTorch / NumPy artifacts
+*.pt
+*.pth
+*.npy
+*.npz
+
+# Results and logs (user-generated outputs)
+results_public/
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini

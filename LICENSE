@@ -1,0 +1,65 @@
+HAMD Community Edition — Noncommercial Research and Evaluation License
+Version 1.0, March 2026
+
+Copyright (c) 2026 Symplectic Optimization
+
+TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+
+1. DEFINITIONS
+
+   "Software" means the HAMD Community Edition source code, documentation,
+   data files, and any associated materials in this repository.
+
+   "Commercial Use" means any use of the Software, directly or indirectly,
+   for commercial advantage or monetary compensation, including but not
+   limited to: internal business optimisation or decision-making; use in a
+   commercial product or service; use in a hosted or cloud service offered
+   to customers; use in production workflows at a for-profit organisation.
+
+   "Noncommercial Use" means use solely for academic research, personal
+   education, public-interest research, or evaluation of the Software's
+   capabilities — where no commercial advantage or monetary compensation
+   is sought or received.
+
+2. GRANT OF LICENSE
+
+   Subject to the terms of this License, Symplectic Optimization hereby
+   grants you a worldwide, royalty-free, non-exclusive, non-transferable
+   license to:
+
+   (a) use the Software for Noncommercial Use only;
+   (b) reproduce and distribute the Software for Noncommercial Use
+       provided that you retain this License in all copies;
+   (c) modify the Software and create derivative works for
+       Noncommercial Use, provided that any distribution of such
+       derivative works carries this License and clearly marks the
+       modifications made.
+
+3. RESTRICTIONS
+
+   You may NOT:
+   (a) use the Software for any Commercial Use;
+   (b) use the Software in internal production systems at a company;
+   (c) offer the Software or a hosted service built on it to customers;
+   (d) remove or alter any copyright, license, or attribution notices;
+   (e) sublicense the Software under any other terms.
+
+4. COMMERCIAL LICENSING
+
+   If you wish to use the Software for Commercial Use, you must obtain
+   a separate commercial license from Symplectic Optimization.
+
+   Contact: contact@symplectic-opt.com
+
+5. DISCLAIMER OF WARRANTIES
+
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+   EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+   MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND
+   NONINFRINGEMENT.  IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY
+   CLAIM, DAMAGES, OR OTHER LIABILITY ARISING FROM USE OF THE SOFTWARE.
+
+6. ATTRIBUTION
+
+   Publications, reports, or presentations that use results produced
+   with this Software must cite the associated paper (see CITATION.cff).

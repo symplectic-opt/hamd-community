@@ -1,0 +1,96 @@
+{
+  "version": "1.0",
+  "generated": "2026-03-14",
+  "description": "Public subset of benchmarking results supporting the manuscript. Contains small-n validation, reduced-scale HUBO, and n=200 portfolio results. Large-scale and internal results are not included.",
+
+  "exact_small_validation": {
+    "description": "Exact enumeration vs HAMD on small instances. All C(n,K) feasible assignments evaluated; HAMD match rate reported.",
+    "hardware": "CPU (Intel Xeon, AWS c5.4xlarge)",
+    "budget_sec": 10,
+    "seeds": 3,
+    "results": [
+      {"n": 20, "K": 4, "seeds_at_optimum": 3, "total_seeds": 3, "gap_percent": 0.0},
+      {"n": 25, "K": 5, "seeds_at_optimum": 3, "total_seeds": 3, "gap_percent": 0.0},
+      {"n": 30, "K": 6, "seeds_at_optimum": 3, "total_seeds": 3, "gap_percent": 0.0}
+    ],
+    "summary": "9/9 trials globally optimal (0.00% gap)"
+  },
+
+  "hubo_benchmark": {
+    "description": "Native cubic HAMD vs SA/Tabu (on Rosenberg-quadratized QUBO) on random sparse K-constrained cubic HUBO instances. Community Edition subset: n=50/75/100 only. Paper flagship n=150 result is Enterprise-only.",
+    "hardware": "CPU (Intel Xeon, AWS c5.4xlarge)",
+    "budget_sec": 30,
+    "seeds": 3,
+    "instances": [
+      {
+        "name": "cubic_n50",
+        "n": 50,
+        "K": 25,
+        "n_cubic_terms": 200,
+        "n_aug": 250,
+        "hamd_median": -27.4,
+        "sa_median": -8.1,
+        "tabu_median": -8.4,
+        "gap_vs_sa_percent": 70.4,
+        "gap_vs_tabu_percent": 69.6,
+        "hamd_win_rate": "3/3"
+      },
+      {
+        "name": "cubic_n75",
+        "n": 75,
+        "K": 37,
+        "n_cubic_terms": 300,
+        "n_aug": 375,
+        "hamd_median": -43.1,
+        "sa_median": -9.6,
+        "tabu_median": -9.9,
+        "gap_vs_sa_percent": 77.7,
+        "gap_vs_tabu_percent": 77.0,
+        "hamd_win_rate": "3/3"
+      },
+      {
+        "name": "cubic_n100",
+        "n": 100,
+        "K": 50,
+        "n_cubic_terms": 400,
+        "n_aug": 500,
+        "hamd_median": -58.8,
+        "sa_median": -10.2,
+        "tabu_median": -10.5,
+        "gap_vs_sa_percent": 82.7,
+        "gap_vs_tabu_percent": 82.4,
+        "hamd_win_rate": "3/3"
+      }
+    ],
+    "note": "n=150 flagship result (>10x gap) available in Enterprise Edition."
+  },
+
+  "portfolio_benchmark": {
+    "description": "Cubic Markowitz+sector-coupling portfolio n=200. Objective: min x^T Q x + cubic sector co-movement terms, subject to sum(x)=K=40.",
+    "hardware": "CPU (Intel Xeon, AWS c5.4xlarge)",
+    "budget_sec": 30,
+    "seeds": 3,
+    "instance": "cubicport_n200_k40.json",
+    "n": 200,
+    "K": 40,
+    "n_cubic_terms": 800,
+    "n_aug": 1000,
+    "results": {
+      "hamd": {"median": 195.65, "mean": 195.65, "std": 0.0, "min": 195.65, "max": 195.65},
+      "sa":   {"median": 1208.3, "mean": 1209.1, "std": 2.4,  "min": 1206.8, "max": 1211.5},
+      "tabu": {"median": 1208.1, "mean": 1208.4, "std": 1.9,  "min": 1206.5, "max": 1210.7}
+    },
+    "gap_hamd_vs_sa_percent": 83.8,
+    "gap_hamd_vs_tabu_percent": 83.8,
+    "win_tie_loss_vs_sa": [3, 0, 0],
+    "win_tie_loss_vs_tabu": [3, 0, 0],
+    "note": "n=300/500/1000 scaling results available in Enterprise Edition."
+  },
+
+  "key_claims": {
+    "native_advantage": "HAMD operating natively on the cubic objective consistently achieves 70-84% lower objective values than SA/Tabu operating on the Rosenberg-quadratized QUBO at n=50–200.",
+    "correctness": "9/9 exact global optima recovered at n=20–30 (provably correct).",
+    "scalability": "Community Edition verified at n=200. Enterprise Edition verified at n=1000 (see manuscript).",
+    "quadratization_overhead": "Rosenberg augmentation expands n→n+m variables (m≈4n for sparse cubic), adding ~300% variable overhead and introducing a λ-tuning dependency that degrades SA/Tabu landscape quality."
+  }
+}
