@@ -44,8 +44,6 @@ You may **not** use this software for:
 - resale, sublicensing, or OEM distribution
 - embedding the code in a commercial software product
 
-If your use case supports a business, customer, client, or internal commercial workflow, you need a commercial license.
-
 ---
 
 ## Company use
