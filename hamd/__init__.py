@@ -1,10 +1,9 @@
 """
-HAMD Community Edition
-======================
-Hyper-Adaptive Momentum Dynamics — open research / evaluation release.
+HAMD Research Release
+=====================
+Hyper-Adaptive Momentum Dynamics — reduced-scope research implementation.
 
 Noncommercial use only.  See LICENSE for terms.
-Commercial licensing: grserb.research@gmail.com
 """
 
 __version__ = "1.0.0"

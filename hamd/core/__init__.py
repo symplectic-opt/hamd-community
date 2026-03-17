@@ -1,5 +1,5 @@
 """
-hamd.core — Shared numerical primitives for HAMD Community Edition.
+hamd.core — Shared numerical primitives for the HAMD Research Release.
 
 Modules
 -------

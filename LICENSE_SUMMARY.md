@@ -1,15 +1,15 @@
 # License Summary
 
-This file provides a plain-English summary of the HAMD Community Edition license.
+This file provides a plain-English summary of the HAMD Research Release license.
 
 It is **not** the license itself.  
 The binding legal terms are in [`LICENSE`](./LICENSE).
 
 ---
 
-## What HAMD Community Edition is licensed for
+## What this software is licensed for
 
-HAMD Community Edition is intended for:
+This release is intended for:
 
 - academic research
 - personal experimentation
@@ -34,7 +34,7 @@ You may:
 
 ## What you are **not** allowed to do
 
-You may **not** use HAMD Community Edition for:
+You may **not** use this software for:
 
 - commercial production workloads
 - internal business operations
@@ -50,7 +50,7 @@ If your use case supports a business, customer, client, or internal commercial w
 
 ## Company use
 
-A company may review and evaluate HAMD Community Edition internally **only** for noncommercial research/evaluation purposes.
+A company may review and evaluate this software internally **only** for noncommercial research/evaluation purposes.
 
 Examples of allowed internal evaluation:
 - testing the examples
@@ -74,9 +74,9 @@ See [`CITATION.cff`](./CITATION.cff) or the README for citation details.
 
 ---
 
-## No commercial rights in Community Edition
+## No commercial rights in this release
 
-The Community Edition does **not** include:
+This release does **not** include:
 
 - production-use rights
 - internal commercial-use rights
@@ -84,32 +84,13 @@ The Community Edition does **not** include:
 - hosted-service rights
 - redistribution rights for commercial purposes
 
-Those rights are available only through a separate commercial agreement.
-
----
-
-## Commercial options
-
-Commercial options may include:
-
-- paid benchmark bake-offs / proof-of-concept engagements
-- internal-use enterprise licenses
-- on-prem or private deployment packages
-- custom formulation and integration work
-
-Contact for commercial licensing:
-
-**grserb.research@gmail.com**
+For commercial licensing, contact the authors as described in [`LICENSE`](./LICENSE).
 
 ---
 
 ## If you are unsure
 
-If you are unsure whether your use is allowed under the Community Edition license, the safest approach is to ask.
-
-Contact:
-
-**grserb.research@gmail.com**
+If you are unsure whether your use is permitted under this license, consult the full [`LICENSE`](./LICENSE) text.
 
 ---
 

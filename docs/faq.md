@@ -67,7 +67,7 @@ You can also construct the dict directly for your own problem.
 
 ---
 
-## Q: What objectives does the Community Edition support?
+## Q: What objectives does this release support?
 
 **A:** Any minimization objective of the form:
 
@@ -88,15 +88,14 @@ HAMD on a K-constrained binary quadratic, which is also a valid use case.
 
 ---
 
-## Q: Community Edition vs Enterprise Edition — what's the key difference?
+## Q: What is the scope of this release?
 
-**A:** See [community_vs_enterprise.md](community_vs_enterprise.md) for a full
-feature matrix.  The short version:
+**A:** This repository is a reduced-scope research implementation intended for
+reproducibility of selected examples, method evaluation on public and small-scale
+instances, and inspection of the main algorithmic components.
 
-- **Community:** n ≤ 200, single objective mode, public benchmarks (n=50–100
-  HUBO, n=200 portfolio), basic ILS, open for research/evaluation.
-- **Enterprise:** n ≤ 10,000+, all performance modes, full ablation/campaign
-  tooling, decoded-feasibility analytics, commercial support, production SLA.
+Some large-scale automation, benchmarking infrastructure, and supporting tooling
+used in internal experimentation are not part of this release.
 
 ---
 
@@ -119,7 +118,7 @@ feature matrix.  The short version:
 
 ## Q: Does HAMD require a GPU?
 
-**A:** No.  All Community Edition benchmarks run on CPU.  PyTorch is required for
+**A:** No.  All benchmarks in this release run on CPU.  PyTorch is required for
 the tensor operations, but no CUDA is needed.  The solver will automatically use
 CUDA if available (`torch.cuda.is_available()` → True) to accelerate the matrix
 operations, but the results are identical.
@@ -137,4 +136,4 @@ operations, but the results are identical.
 **A:** Open a GitHub issue in this repository with a minimal reproducible example,
 the Python/PyTorch/OS versions, and the full error traceback.
 
-For commercial inquiries, contact **grserb.research@gmail.com**.
+For research questions or bug reports, open a GitHub issue.

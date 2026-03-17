@@ -18,8 +18,8 @@ a genuine higher-order solver: classical QUBO methods must first
 Rosenberg-quadratize, adding one auxiliary variable per cubic term and
 distorting the optimisation landscape.
 
-The community generator supports up to n=200.  For larger scales and
-production-grade instance construction, see HAMD Enterprise Edition.
+The generator in this release supports up to n=200 for the toy problem class.
+For research use on larger scales, extend the generator directly.
 
 Usage
 -----
@@ -98,7 +98,7 @@ def generate(
 
     Parameters
     ----------
-    n            : number of assets (max 200 for community edition)
+    n            : number of assets (max 200 for this release)
     K            : portfolio cardinality (number of assets to select)
     filepath     : output path
     seed         : random seed
@@ -109,8 +109,8 @@ def generate(
     """
     if n > 200:
         raise ValueError(
-            f"n={n} exceeds community edition limit (n≤200). "
-            "Contact grserb.research@gmail.com for HAMD Enterprise Edition."
+            f"n={n} exceeds the supported range for this release (n≤200). "
+            "Extend the generator directly for larger instances."
         )
 
     rng         = np.random.RandomState(seed)

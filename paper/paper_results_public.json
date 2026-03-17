@@ -17,7 +17,7 @@
   },
 
   "hubo_benchmark": {
-    "description": "Native cubic HAMD vs SA/Tabu (on Rosenberg-quadratized QUBO) on random sparse K-constrained cubic HUBO instances. Community Edition subset: n=50/75/100 only. Paper flagship n=150 result is Enterprise-only.",
+    "description": "Native cubic HAMD vs SA/Tabu (on Rosenberg-quadratized QUBO) on random sparse K-constrained cubic HUBO instances. Public subset: n=50/75/100.",
     "hardware": "CPU (Intel Xeon, AWS c5.4xlarge)",
     "budget_sec": 30,
     "seeds": 3,
@@ -62,7 +62,7 @@
         "hamd_win_rate": "3/3"
       }
     ],
-    "note": "n=150 flagship result (>10x gap) available in Enterprise Edition."
+    "note": "n=150 flagship result (>10x gap) corresponds to a larger instance not included in this release."
   },
 
   "portfolio_benchmark": {
@@ -84,13 +84,13 @@
     "gap_hamd_vs_tabu_percent": 83.8,
     "win_tie_loss_vs_sa": [3, 0, 0],
     "win_tie_loss_vs_tabu": [3, 0, 0],
-    "note": "n=300/500/1000 scaling results available in Enterprise Edition."
+    "note": "n=300/500/1000 scaling results correspond to larger instances not included in this release."
   },
 
   "key_claims": {
     "native_advantage": "HAMD operating natively on the cubic objective consistently achieves 70-84% lower objective values than SA/Tabu operating on the Rosenberg-quadratized QUBO at n=50–200.",
     "correctness": "9/9 exact global optima recovered at n=20–30 (provably correct).",
-    "scalability": "Community Edition verified at n=200. Enterprise Edition verified at n=1000 (see manuscript).",
+    "scalability": "This release verified at n=200. Larger-scale results are reported in the manuscript.",
     "quadratization_overhead": "Rosenberg augmentation expands n→n+m variables (m≈4n for sparse cubic), adding ~300% variable overhead and introducing a λ-tuning dependency that degrades SA/Tabu landscape quality."
   }
 }

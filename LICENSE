@@ -1,4 +1,4 @@
-HAMD Community Edition — Noncommercial Research and Evaluation License
+HAMD Research Release — Noncommercial Research and Evaluation License
 Version 1.0, March 2026
 
 Copyright (c) 2026 Symplectic Optimization
@@ -7,7 +7,7 @@ TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
 
 1. DEFINITIONS
 
-   "Software" means the HAMD Community Edition source code, documentation,
+   "Software" means the HAMD Research Release source code, documentation,
    data files, and any associated materials in this repository.
 
    "Commercial Use" means any use of the Software, directly or indirectly,
@@ -44,14 +44,7 @@ TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
    (d) remove or alter any copyright, license, or attribution notices;
    (e) sublicense the Software under any other terms.
 
-4. COMMERCIAL LICENSING
-
-   If you wish to use the Software for Commercial Use, you must obtain
-   a separate commercial license from Symplectic Optimization.
-
-   Contact: grserb.research@gmail.com
-
-5. DISCLAIMER OF WARRANTIES
+4. DISCLAIMER OF WARRANTIES
 
    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
    EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
@@ -59,7 +52,7 @@ TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
    NONINFRINGEMENT.  IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY
    CLAIM, DAMAGES, OR OTHER LIABILITY ARISING FROM USE OF THE SOFTWARE.
 
-6. ATTRIBUTION
+5. ATTRIBUTION
 
    Publications, reports, or presentations that use results produced
    with this Software must cite the associated paper (see CITATION.cff).

@@ -1,9 +1,9 @@
 cff-version: 1.2.0
-message: "If you use HAMD Community Edition, please cite the following."
+message: "If you use this software, please cite the following."
 type: software
-title: "HAMD Community Edition"
+title: "HAMD Research Release"
 abstract: >
-  Hyper-Adaptive Momentum Dynamics — open research and evaluation release
+  Hyper-Adaptive Momentum Dynamics — reduced-scope research implementation
   for K-cardinality-constrained cubic binary optimisation.
 version: "1.0.0"
 date-released: "2026-03-14"

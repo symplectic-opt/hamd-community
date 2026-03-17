@@ -3,9 +3,6 @@
 ## 1. Installation
 
 ```bash
-# From PyPI
-pip install hamd-community
-
 # From source
 git clone https://github.com/symplectic-opt/hamd-community
 cd hamd-community
@@ -105,7 +102,7 @@ from hamd.generators.cubic_portfolio_toy import generate as port_gen
 # HUBO
 hubo_gen(n_vars=50, filepath="data/cubic_hubo/cubic_n50.json")
 
-# Portfolio (community edition: n ≤ 200)
+# Portfolio
 port_gen(n=100, K=20, filepath="data/cubic_portfolio/cubicport_n100_k20.json")
 ```
 

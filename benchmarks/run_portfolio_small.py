@@ -1,5 +1,5 @@
 """
-HAMD Community Edition — Small Cubic Portfolio Benchmark
+HAMD Research Release — Small Cubic Portfolio Benchmark
 =========================================================
 Benchmarks HAMD-native vs SA-QUBO vs Tabu-QUBO on the cubic portfolio
 instance cubicport_n200_k40.  This demonstrates the quadratization overhead

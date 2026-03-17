@@ -1,5 +1,5 @@
 """
-HAMD Community Edition — Exact Small-Size Validation
+HAMD Research Release — Exact Small-Size Validation
 =====================================================
 Brute-force enumeration of all C(n,K) feasible assignments provides a
 provably exact global optimum for n≤30.  Used to verify that HAMD

@@ -2,9 +2,9 @@
 
 ## Public Benchmark Scope
 
-The Community Edition reproduces a subset of the paper's experimental results
-at reduced scale.  The full paper benchmarks (n=500, n=1000, full ablation study,
-decoded-feasibility forensics) require the Enterprise Edition.
+This release reproduces a subset of the paper's experimental results at reduced
+scale.  Some large-scale experiments and supporting infrastructure used in
+internal experimentation are not part of this release.
 
 ---
 
@@ -65,17 +65,14 @@ Exact numbers will differ from paper (shorter budget).
 The paper's exact numbers (60 s budget, 3 seeds, n=150 HUBO, full ablation, n=1000
 portfolio) require:
 - 60 s budget
-- The n=150 HUBO instance (`cubic_n150.json`) — not included in Community Edition
-- The full `run_all_cubic_benchmarks.sh` campaign script — Enterprise only
-- The decoded-feasibility analytics package — Enterprise only
-
-Contact **grserb.research@gmail.com** for the Enterprise Edition to reproduce all paper results.
+- The n=150 HUBO instance (`cubic_n150.json`) — not included in this release
+- The full-scale benchmark campaign infrastructure — not part of this release
 
 ---
 
 ## Hardware Notes
 
-All benchmarks are CPU-only in the Community Edition (no GPU required).
+All benchmarks in this release are CPU-only (no GPU required).
 
 Paper results were produced on an AWS g5.xlarge (NVIDIA A10G + 16 vCPU).
 CPU-only results will be slower and may show higher variance, but HAMD's

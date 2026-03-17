@@ -5,7 +5,7 @@ build-backend = "setuptools.backends.legacy:build"
 [project]
 name        = "hamd-community"
 version     = "1.0.0"
-description = "HAMD Community Edition — native cubic K-cardinality optimisation"
+description = "HAMD Research Release — native cubic K-cardinality optimisation"
 readme      = "README.md"
 requires-python = ">=3.10"
 license     = { text = "Noncommercial Research/Evaluation" }

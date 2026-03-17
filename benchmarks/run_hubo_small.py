@@ -1,5 +1,5 @@
 """
-HAMD Community Edition — Small HUBO Benchmark
+HAMD Research Release — Small HUBO Benchmark
 ==============================================
 Benchmarks HAMD-native vs SA-QUBO vs Tabu-QUBO on K-constrained sparse
 cubic spin-glass (HUBO) instances of sizes n=50, 75, 100.

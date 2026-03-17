@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # =============================================================================
 # run_public_benchmarks.sh
-# HAMD Community Edition — public benchmark suite
+# HAMD Research Release — public benchmark suite
 #
 # Runs three experiments demonstrating the HAMD algorithm on cubic
 # combinatorial optimisation problems:
@@ -43,7 +43,7 @@ LOG="$OUTDIR/run_${STAMP}.log"
 
 log() { echo "[$(date +%H:%M:%S)] $*" | tee -a "$LOG"; }
 
-log "HAMD Community Edition — Public Benchmark Suite"
+log "HAMD Research Release — Public Benchmark Suite"
 log "budget=${BUDGET}s  seeds=${SEEDS}  output=${OUTDIR}"
 log "=========================================================="
 

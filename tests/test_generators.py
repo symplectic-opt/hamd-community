@@ -39,10 +39,10 @@ def test_portfolio_generator_creates_valid_json():
 
 
 def test_portfolio_community_limit():
-    """Generator refuses n > 200 in community edition."""
+    """Generator refuses n > 200 in this release."""
     with tempfile.TemporaryDirectory() as tmp:
         fp = os.path.join(tmp, 'too_big.json')
-        with pytest.raises(ValueError, match='community edition limit'):
+        with pytest.raises(ValueError, match='supported range for this release'):
             port_generate(n=300, K=60, filepath=fp)
 
 
